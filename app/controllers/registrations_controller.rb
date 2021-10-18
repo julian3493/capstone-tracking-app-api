@@ -9,7 +9,7 @@ class RegistrationsController < ApplicationController
 
     if user
       session[:user_id] = user.id
-      render json: { 
+      render json: {
         status: :created,
         user: user
       }

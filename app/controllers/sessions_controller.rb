@@ -8,7 +8,7 @@ class SessionsController < ApplicationController
       session[:user_id] = user.id
       render json: {
         status: :created,
-        loggued_in: true,
+        logged_in: true,
         user: user
       }
     else
@@ -19,12 +19,12 @@ class SessionsController < ApplicationController
   def loggued_in
     if @current_user
       render json: {
-        loggued_in: true,
+        logged_in: true,
         user: @current_user
       }
     else
       render json: {
-        loggued_in: false
+        logged_in: false
       }
     end
   end

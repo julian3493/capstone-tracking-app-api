@@ -20,7 +20,8 @@ gem 'jbuilder', '~> 2.7'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.7'
+gem 'rack-cors', require: 'rack/cors'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
@@ -54,7 +55,5 @@ group :test do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'bcrypt', '~> 3.1', '>= 3.1.16'
-gem 'rack-cors', require: 'rack/cors'
 gem 'rubocop', '>= 1.0', '< 2.0'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]

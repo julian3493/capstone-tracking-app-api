@@ -21,7 +21,10 @@ class TracksController < ApplicationController
         track: track
       }
     else
-      render json: { status: 500 }
+      render json: {
+        status: 500,
+        params: track_params
+      }
     end
   end
 

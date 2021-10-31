@@ -14,7 +14,7 @@ class TracksController < ApplicationController
   end
 
   def create
-    track = @current_user.tracks.create!(track_params)
+    track = @current_user.tracks.create(track_params)
     if track
       render json: {
         status: 'created',

@@ -28,7 +28,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Run
 
-Run the API locally using `rails s`
+Run the API locally using `rails s -p 3001`
 
 ### Testing
 

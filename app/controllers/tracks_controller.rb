@@ -28,8 +28,6 @@ class TracksController < ApplicationController
     end
   end
 
-  private
-
   def track_params
     params.require(:track).permit(:electrodomestic, :day, :time_connected, :watts, :user_id)
   end

@@ -28,11 +28,12 @@ To get a local copy up and running follow these simple example steps.
 
 ### Run
 
-Run the API locally using `rails s -p 3001`
+- Run the API locally using `rails s -p 3001`
 
 ### Testing
 
-Use `bundle exec rspec` to run test
+- To set up the database in test enviroment use `rails db:migrate RAILS_ENV=test`
+- Use `bundle exec rspec` to run tests
 
 ## Author
 ​

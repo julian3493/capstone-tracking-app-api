@@ -1,24 +1,56 @@
-# README
+# Electric Consumption Tracker API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> It is an API build on Ruby on Rails. This API returns JSON responses, it recieves GET, POST, and DELETE request, described better bellow
 
-Things you may want to cover:
+![screenshot](./public/Screenshot.png)
 
-* Ruby version
+## Built With
 
-* System dependencies
+- Ruby
+- Ruby on Rails
+- PostgreSQL
+- Rspec
 
-* Configuration
+## Live Demo
 
-* Database creation
+[Live Demo](https://julian-comsumption-tracker-api.herokuapp.com/)
 
-* Database initialization
+## Getting Started
 
-* How to run the test suite
+To get a local copy up and running follow these simple example steps.
 
-* Services (job queues, cache servers, search engines, etc.)
+### Setup
 
-* Deployment instructions
+- Clone this repository. Type `git clone https://github.com/julian3493/capstone-tracking-app-api.git`
+- Navigate to the project folder (capstone-tracking-app-api) `capstone-tracking-app-api`
+- Run `bundle install` to install de gems
+- Set up database using 
 
-* ...
+### Run
+
+- Run the API locally using `rails s -p 3001`
+
+### Testing
+
+- To set up the database in test enviroment use `rails db:migrate RAILS_ENV=test`
+- Use `bundle exec rspec` to run tests
+
+## Author
+​
+👤 **Julian Ramos**
+​
+
+[<code><img height="26" src="https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png"></code>](https://github.com/julian3493)
+[<code><img height="26" src="https://upload.wikimedia.org/wikipedia/sco/thumb/9/9f/Twitter_bird_logo_2012.svg/1200px-Twitter_bird_logo_2012.svg.png"></code>](https://twitter.com/JulianR16893833)
+[<code><img height="26" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/1200px-Linkedin.svg.png"></code>](https://www.linkedin.com/in/julian-ramos-arevalo/)
+[<code><img height="26" src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Gmail_Icon.svg"></code>](mailto:julianramosarevalo@gmail.com)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the <a href="https://github.com/julian3493/capstone-tracking-app-api/issues"> issues page</a>.
+
+## Show your support
+
+Give a ⭐️ if you like this project!
